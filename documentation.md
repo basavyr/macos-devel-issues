@@ -20,6 +20,12 @@ The following sources helped with finding solutions and fixes to the issues that
 |   https://stackoverflow.com/questions/27948093/include-search-path-on-mac-os-x-yosemite-10-10-1   |       Include search path on Mac OS X Yosemite 10.10.1    |
 |   https://stackoverflow.com/questions/58628377/catalina-c-using-cmath-headers-yield-error-no-member-named-signbit-in-th/59780819#59780819   |      Catalina C++: Using <cmath> headers yield error: no member named 'signbit' in the global namespace      |
 |   https://solarianprogrammer.com/2019/10/12/compiling-gcc-macos/  |      Compiling GCC 10 on macOS Catalina     |
-|   a   |      b      |
-|   a   |      b      |
+|   https://stackoverflow.com/questions/47697761/cmake-run-time-error-dyld-library-not-loaded-for-dynamically-linked-resource/47699417#47699417   |       CMake: Run-time error (dyld: Library not loaded) for dynamically linked resources on MacOS     |
+|   https://blog.krzyzanowskim.com/2018/12/05/rpath-what/   |      @rpath what - a useful post about rpath in general      |
+|   https://gitlab.kitware.com/cmake/community/-/wikis/doc/cmake/RPATH-handling   |      RPATH handling   - amazing documentation from official cmake community   |
+|   https://stackoverflow.com/questions/30398238/cmake-rpath-not-working-could-not-find-shared-object-file   |      CMAKE RPATH not working - could not find shared object file      |
+|   https://blog.kitware.com/upcoming-in-cmake-2-8-12-osx-rpath-support/   | Upcoming in CMake 2.8.12: OSX RPath Support           |
+|   https://stackoverflow.com/questions/40146437/how-to-set-multiple-rpath-directories-using-cmake-on-macos   |      How to set multiple RPATH directories using CMake on MacOS      |
+|   https://stackoverflow.com/questions/32469953/why-is-cmake-designed-so-that-it-removes-runtime-path-when-installing/32470070#32470070   |      Why is CMake designed so that it removes runtime path when installing     |
+|   https://stackoverflow.com/questions/43551483/how-to-set-rpath-in-cmake/43551534   |      How to set RPATH in CMAKE?     |
 |   a   |      b      |

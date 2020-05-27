@@ -189,3 +189,20 @@ Example of cmake build
 8              --with-sysroot=/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk \ # the sysroot path to the sdk
 9              --program-suffix=-10.1
 ```
+
+## Can't run executable from the install project tree (CMAKE)
+
+This issue has been discussed [here](https://github.com/basavyr/CI-CD-workflow/blob/master/issues.md) as well.
+The solution is to use proper flags in the `CMakeLists.txt` file.
+
+The `set(CMAKE_INSTALL_RPATH "${CMAKE_INSTALL_PREFIX}/lib")` command  will make the executable to look into the correct path of the `libs` directory.
+
+
+[This](https://stackoverflow.com/a/47699417/8295213) is an awesome answer from an SO post that explains how the rpath actually works. See documentation for other links.
+
+The solution in the present situation  (developing on OSX Catalina with CMake3) was found in [this](https://stackoverflow.com/a/43551534/8295213) answer:
+
+```cmake
+set(CMAKE_MACOSX_RPATH 1)
+set(CMAKE_INSTALL_RPATH "${CMAKE_INSTALL_PREFIX}/lib")
+```
