@@ -15,3 +15,8 @@ Thank you to all the development communities (e.g. [Stack Overflow](https://stac
 * The earliest version for the Command Line Tools which was installed on the machine was 11.3
 * Compilation of `C++` sources was done with the `clang` compiler that comes with XCode (no additional compiler(s) was(were) installed)
 * These fixes might but might also **not** work for you, depending on the version of OS, compilers and actual development enviroments. 
+
+## Content
+
+1. [Issues](issues.md)
+2. [Resources](documentation.md)
