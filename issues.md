@@ -1,5 +1,27 @@
 # `C++` development issues
 
+## CI/CD
+
+When working with C++ projects, development pipelines were created with GitHub Actions or CircleCI. There are repositories which contain sources and documentation for various issues which appeared when building CI/CD pipelines on MacOS and other Linux distributions.
+
+* A project that contains a CI/CD pipeline via GitHub action is available [here](https://github.com/basavyr/effective-journey).
+* Documentation on building CI/CD pipelines and also integrating CMake into C++ projects can be accessed [here](https://github.com/basavyr/CI-CD-workflow)
+  * This repo contains pipelines for deploying projects to **GitHub Actions**, **CircleCI**
+    * it contains also sources and docs for different issues: [docs](https://github.com/basavyr/CI-CD-workflow/blob/master/issues.md)
+* Docs and sources for implementing CMake into any C++ project: [this GitHub repo](https://github.com/basavyr/c-cake-documentation-tutorials).
+
+## Python Bindings
+
+Extending the Python functionality with the help of C++-based modules. [This repository](https://github.com/basavyr/python-bindings) contains a collection of working Python extensions, built for multi-platform use-case.
+
+* Project has a CircleCI pipeline, which builds the extensions on multiple platforms.
+* The repo has a documentation and a description with issues that appeared during development cycle.
+* More details can be seen at the following links:
+  * [Official GitHub repo](https://github.com/basavyr/python-bindings)
+  * [Docs & issues](https://github.com/basavyr/python-bindings/blob/master/docs.md)
+
+## Dev-issues
+
 This document contains the issues which prevented a proper workflow in `C++`projects:
 
 * prevent proper source(s) compilation
