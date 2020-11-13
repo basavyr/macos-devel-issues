@@ -1,0 +1,8 @@
+# Read more about SSH config files: https://linux.die.net/man/5/ssh_config
+Host elk
+    HostName elk.nipne.ro
+    User robert.poenaru
+Host code-server
+    HostName basavyr.live
+    User basavyr
+    
