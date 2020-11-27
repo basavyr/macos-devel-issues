@@ -20,3 +20,4 @@ Thank you to all the development communities (e.g. [Stack Overflow](https://stac
 
 1. [Issues](issues.md)
 2. [Resources](documentation.md)
+3. [🌟 New Resources](bigsur.md) - macOS 11 BigSur
