@@ -35,8 +35,43 @@ Solution for using Python for science/development projects is provided in severa
 
 #### Pyenv
 
+Official docs: [here](https://github.com/pyenv/pyenv)
 Download the latest release: [here](https://github.com/pyenv/pyenv/releases/tag/v1.2.21)
 
 #### poetry
 
 Download and documentation: [here](https://python-poetry.org/docs/)
+
+#### pipenv
+
+[Basic Usage of Pipenv](https://pipenv.pypa.io/en/latest/basics/#)
+
+[Further Configuration of pip and Virtualenv](https://docs.python-guide.org/dev/pip-virtualenv/)
+
+
+Documentation:
+ 
+[Installing Pyenv and Pipenv in a Testing Environment](https://medium.com/@chris_birch/installing-pyenv-and-pipenv-to-easily-manage-python-dependencies-19735ce5dfb0#:~:text=Pipenv%20combines%20Pip%20with%20virtual,of%20Python%20for%20each%20project.&text=pipenv%20install%20is%20used%20to,add%20them%20to%20the%20Pipfile.)
+
+[Pipenv & Virtual Environments](https://pipenv.pypa.io/en/latest/install/#installing-packages-for-your-project)
+
+[Installing Python packages in 2019: pyenv and pipenv
+](https://gioele.io/pyenv-pipenv) - *The objective of this small guide is to describe how pyenv, pipenv and various other tools work together to install and manage Python packages. This guide is aimed at those who would like to have a look behind the scenes to understand how modern Python packaging tools work together.*
+
+
+In this current build of macOS (referring to the local machine on which development takes place), `pyenv` and `pipenv` are configured so that oen can set different python versions for each project. Installing packages (e.g. `scipy`, `numpy`) is taken care of by `pipenv`. 
+
+⚠️ **BigSur** issue: The latest macOS version has compatibility issues with the latest version of `numpy` and latest version of Python (that is 3.9).
+
+ℹ️ As a result, the current system uses Python `3.8.6 ` and `numpy-1.18`
+
+More useful information for setting up environments:
+
+[Python Virtual Environments: A Primer](https://realpython.com/python-virtual-environments-a-primer/)
+
+[Official repo for `pyenv`🚀](https://github.com/pyenv/pyenv#advanced-configuration)
+
+
+#### pipx
+
+[pipx — Install and Run Python Applications in Isolated Environments](https://pipxproject.github.io/pipx/)
