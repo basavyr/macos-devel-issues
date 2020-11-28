@@ -75,3 +75,29 @@ More useful information for setting up environments:
 #### pipx
 
 [pipx — Install and Run Python Applications in Isolated Environments](https://pipxproject.github.io/pipx/)
+
+
+## Pipenv issues
+___
+
+### Numpy
+
+Issues with the process of installing (which was also mentioned above) was solved by installing an older version, together with an older version of python itself.
+
+It is considered that latest version of Python (that is `3.9`) it is having compatibility issues with BigSur. As a result, this might cause numpy package to fail when trying to run python scripts with the package imported.
+
+### Matplotlib
+
+When using `pipenv` to install the `matplotlib` package (which is used for plotting data and creating complex graphs), the installation process fails. Even when attempting to install different versions of matplotlib, the installation process would still not finish successfully. 
+**Potential reason**: the pipenv package manager (that takes advantage of virtual environments within the python paradigm) was installed **via Homebrew**. Many threads on github indicate that the package for macOS managed by Homebrew is deflective with improper support.
+
+🌟 Solution: use `pipenv` by installing it with `pip`. Since the virtual environment was already set up to work with `py-3.8.6`, the pip (that is pip3 actually) replaced the Homebrew version of pipenv. [This issue](https://github.com/pypa/pipenv/issues/1169) discusses about other similar situations where Homebrew version of `pipenv` fails to work properly when installing packages.
+
+Furthermore, the installation process still failed, but the error message indicate the fact that a `jpeg` library was missing. Using [this guide](https://stackoverflow.com/questions/64884415/cant-install-matplotlib-on-macos-big-sur), the solution is to install the `libjpeg` service via Homebrew.
+
+*TL;DR:*
+
+* ✅ use `pipenv` installed via `pip`, and not via Homebrew.
+* ⚠️ make sure the `libjpeg` service is available on the machine (it can be installed via Homebrew).
+
+It is worth mentioning that these solutions were only tested on macOS BigSur.
