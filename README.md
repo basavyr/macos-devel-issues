@@ -21,3 +21,26 @@ Thank you to all the development communities (e.g. [Stack Overflow](https://stac
 1. [Issues](issues.md)
 2. [Resources](documentation.md)
 3. [🌟 New Resources](bigsur.md) - macOS 11 BigSur
+
+
+### Ungoogled-chromium
+
+Installed via Homebrew. [here](https://formulae.brew.sh/cask/eloston-chromium). Using latest version for macOS BigSur. 
+![](./images/2020-12-12-20-47-14.png)
+It does require Security Permissions in order to run, after installation.
+Extensions work only with **.crx format files**.
+
+Steps for getting an extension:
+
+1. Choose extension from the [*Chrome web store*](https://chrome.google.com/webstore/category/extensions)
+2. Get the link of the extension and use it for next step (get `.crx` file)
+![](./images/2020-12-12-20-49-54.png)
+3. [Get the .crx format extension](https://crxextractor.com/)
+4. For macOS: In **terminal**, go to the location of the `crx.` file that was downloaded, then extract it with `unzip` command like so:
+```shell
+unzip extension-file.crx
+```
+5. Settings -> Extensions -> Turn on Developer mode -> **Load unpacked**
+![](./images/2020-12-12-20-51-23.png)
+6. Select the folder with the extracted extension (that was obtained from step 4.)
+7. Extension should properly install.
