@@ -1,0 +1,10 @@
+eval "$(starship init zsh)"
+alias ls='ls -G'
+alias la='ls -la'
+alias work='cd /Users/robertpoenaru/Library/Mobile\ Documents/com~apple~CloudDocs/Work/Pipeline/'
+alias py='python'
+#PYTHON-ENV-SPECIFIC
+export PATH="/Users/robertpoenaru/.pyenv/bin:$PATH"
+eval "$(pyenv init -)"
+eval "$(pyenv virtualenv-init -)"
+
