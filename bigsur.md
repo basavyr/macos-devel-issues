@@ -55,6 +55,15 @@ Documentation:
 
 [Pipenv & Virtual Environments](https://pipenv.pypa.io/en/latest/install/#installing-packages-for-your-project)
 
+[Installing pyenv on macOS](https://binx.io/blog/2019/04/12/installing-pyenv-on-macos/)
+
+
+[Managing Multiple Python Versions With pyenv](https://realpython.com/intro-to-pyenv/)
+
+[Setting up a Python environment in 2020](https://dev.to/py3course/setting-up-a-python-environment-in-2020-3e9e)
+
+[Python Environment 101 - How are pyenv and pipenv different and when you should be using them](https://towardsdatascience.com/python-environment-101-1d68bda3094d#f3ad)
+
 [Installing Python packages in 2019: pyenv and pipenv
 ](https://gioele.io/pyenv-pipenv) - *The objective of this small guide is to describe how pyenv, pipenv and various other tools work together to install and manage Python packages. This guide is aimed at those who would like to have a look behind the scenes to understand how modern Python packaging tools work together.*
 
