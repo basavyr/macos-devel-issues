@@ -93,11 +93,11 @@ ___
 
 Issues with the process of installing (which was also mentioned above) was solved by installing an older version, together with an older version of python itself.
 
-It is considered that latest version of Python (that is `3.9`) it is having compatibility issues with BigSur. As a result, this might cause numpy package to fail when trying to run python scripts with the package imported.
+It is considered that latest version of Python (that is `3.9`) it is having compatibility issues with BigSur. As a result, this might cause `numpy` package to fail when trying to run python scripts with the package imported.
 
 ### Matplotlib
 
-When using `pipenv` to install the `matplotlib` package (which is used for plotting data and creating complex graphs), the installation process fails. Even when attempting to install different versions of matplotlib, the installation process would still not finish successfully. 
+When using `pipenv` to install the `matplotlib` package (which is used for plotting data and creating complex graphs), the installation process fails. Even when attempting to install different versions of `matplotlib`, the installation process would still not finish successfully. 
 **Potential reason**: the pipenv package manager (that takes advantage of virtual environments within the python paradigm) was installed **via Homebrew**. Many threads on github indicate that the package for macOS managed by Homebrew is deflective with improper support.
 
 🌟 Solution: use `pipenv` by installing it with `pip`. Since the virtual environment was already set up to work with `py-3.8.6`, the pip (that is pip3 actually) replaced the Homebrew version of pipenv. [This issue](https://github.com/pypa/pipenv/issues/1169) discusses about other similar situations where Homebrew version of `pipenv` fails to work properly when installing packages.
@@ -110,3 +110,11 @@ Furthermore, the installation process still failed, but the error message indica
 * ⚠️ make sure the `libjpeg` service is available on the machine (it can be installed via Homebrew).
 
 It is worth mentioning that these solutions were only tested on macOS BigSur.
+
+#### December Update
+
+[This commit](https://github.com/basavyr/python-pyenv-pipenv/commit/faf07dcbc65b82aae0e419599315b176480f9a00) which is part of a dedicated project for creating python scripts within virtual environments contains information with regards to the packages required for numerical computations (e.g., using `numpy`) or data visualization (e.g., using `matplotlib`).
+
+In the last clean install of macOS 11 BigSur, followed by the proper python development environment setup (that is `pyenv` with `pipenv`), some issues on the installation process of (multiple versions) of `matplotlib` occurred. Solution was the installation of another python package, namely `cppy`. **All the packages were installed via `pipenv` (while `pipenv` was installed with `pip` and not via Homebrew).**
+
+The repository referenced above contains a [file](https://github.com/basavyr/python-pyenv-pipenv/blob/main/code/collage-maker/py_pckgs_info) in which all the necessary packages for a proper setup that allows numerical computations can be achieved.
