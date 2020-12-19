@@ -118,3 +118,5 @@ It is worth mentioning that these solutions were only tested on macOS BigSur.
 In the last clean install of macOS 11 BigSur, followed by the proper python development environment setup (that is `pyenv` with `pipenv`), some issues on the installation process of (multiple versions) of `matplotlib` occurred. Solution was the installation of another python package, namely `cppy`. **All the packages were installed via `pipenv` (while `pipenv` was installed with `pip` and not via Homebrew).**
 
 The repository referenced above contains a [file](https://github.com/basavyr/python-pyenv-pipenv/blob/main/code/collage-maker/py_pckgs_info) in which all the necessary packages for a proper setup that allows numerical computations can be achieved.
+
+The `matplotlib` package fails to execute `plt.show()` command if the version of package is below `3.3.3` (latest at the moment of BigSur clean install). More details about the fix in [this GitHub post](https://github.com/matplotlib/matplotlib/issues/18953).
