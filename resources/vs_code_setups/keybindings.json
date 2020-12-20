@@ -1,0 +1,14 @@
+// Place your key bindings in this file to override the defaults
+[
+    // Toggle between terminal and editor focus
+    //Source for this setup [here](https://stackoverflow.com/questions/42796887/switch-focus-between-editor-and-integrated-terminal-in-visual-studio-code)
+    {
+        "key": "ctrl+`",
+        "command": "workbench.action.terminal.focus"
+    },
+    {
+        "key": "ctrl+`",
+        "command": "workbench.action.focusActiveEditorGroup",
+        "when": "terminalFocus"
+    }
+]
