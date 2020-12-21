@@ -12,6 +12,16 @@ This [link](https://www.hack-the-planet.net/2019/09/28/cascadia-font-for-macos-t
 
 [Installing the font in VS Code](https://github.com/microsoft/cascadia-code/wiki/Installing-Cascadia-Code).
 
+## VS Code - BigSur update (macOS 11)
+
+With the latest version of macOS (BigSur), the Visual Studio Code editor presents some issues regarding UI stability. More precisely, there is some lagging while using the text editor and the *integrated terminal*. A few issues were opened on GitHub (see these two tickets [1](https://github.com/microsoft/vscode/issues/107103), [2](https://github.com/microsoft/vscode/issues/105446)).
+
+The solution which helped the current development environment for this machine was to use the following command ([source](https://github.com/microsoft/vscode/issues/105446#issuecomment-727537602)):
+
+```shell
+codesign --remove-signature /Applications/Visual\ Studio\ Code.app/Contents/Frameworks/Code\ Helper\ \(Renderer\).app
+```
+
 ## Python - virtual environments & separate package management
 
 macOS BigSur still comes with the system installed Py2 and Py3 version of Python. However, these should be never used by user within development projects. The system-based python packages are just for app compatibility.
