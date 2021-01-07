@@ -130,3 +130,27 @@ In the last clean install of macOS 11 BigSur, followed by the proper python deve
 The repository referenced above contains a [file](https://github.com/basavyr/python-pyenv-pipenv/blob/main/code/collage-maker/py_pckgs_info) in which all the necessary packages for a proper setup that allows numerical computations can be achieved.
 
 The `matplotlib` package fails to execute `plt.show()` command if the version of package is below `3.3.3` (latest at the moment of BigSur clean install). More details about the fix in [this GitHub post](https://github.com/matplotlib/matplotlib/issues/18953).
+
+### Issues with scientific packages from Python
+
+Using `pyenv` and `pipenv` within macOS 11 BigSur, there were issues when trying to install `seaborn` package. Due to other dependencies (i.e., numpy, pandas, matplotlib, and scipy) that were also failed during pre-installation phase, the process became practically problematic.
+
+Several issues are mentioned with regards to the installation process of scipy and other scientific packages specific to Python. As a result, working with advanced data visualization methods for a Python project was impossible within *virtual environments*. This problem was reported on several GitHub issues (e.g., [1](https://github.com/scipy/scipy/issues/13102), [2](https://github.com/numpy/numpy/issues/17784), [3](https://github.com/pypa/pipenv/issues/4564)).
+
+**Solution**: Use the scientific packages that come with [**Anaconda**](https://www.anaconda.com/).
+
+The Anaconda *toolkit* was installed via Homebrew. This package comes with the `conda` command, which can be used for creating environments and installing&removing packages.
+
+Some useful guides for a proper setting of `conda` environment alongside `pyenv`.
+
+1. [Remove anaconda environment prefix from ubuntu terminal command prompt](https://stackoverflow.com/questions/42674401/remove-anaconda-environment-prefix-from-ubuntu-terminal-command-prompt)
+2. [Installing anaconda with pyenv, unable to configure virtual environment](https://stackoverflow.com/questions/58044214/installing-anaconda-with-pyenv-unable-to-configure-virtual-environment/58045893#:~:text=Both%20pyenv%20and%20conda%20are,using%20these%20two%20tools%20together.)
+3. [How do I prevent Conda from activating the base environment by default?](https://stackoverflow.com/questions/54429210/how-do-i-prevent-conda-from-activating-the-base-environment-by-default/57974390#57974390)
+4. [Adding python version and pyenv virtualenv name to bash prompt?](https://stackoverflow.com/questions/49655329/adding-python-version-and-pyenv-virtualenv-name-to-bash-prompt)
+5. [Anaconda on MacOS Big Sur
+](https://aungzanbaw.medium.com/anaconda-on-macos-big-sur-8ae860a74c7a)
+
+Some GitHub issues that can be used for `pyenv` in order to properly show the current virtual environment, even if it is installed alongside `conda`.
+
+* [Show current pyenv python version in bash prompt, and also color virtual envs differently
+](https://gist.github.com/frnhr/dba7261bcb6970cf6121)
