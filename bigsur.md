@@ -147,10 +147,15 @@ Some useful guides for a proper setting of `conda` environment alongside `pyenv`
 2. [Installing anaconda with pyenv, unable to configure virtual environment](https://stackoverflow.com/questions/58044214/installing-anaconda-with-pyenv-unable-to-configure-virtual-environment/58045893#:~:text=Both%20pyenv%20and%20conda%20are,using%20these%20two%20tools%20together.)
 3. [How do I prevent Conda from activating the base environment by default?](https://stackoverflow.com/questions/54429210/how-do-i-prevent-conda-from-activating-the-base-environment-by-default/57974390#57974390)
 4. [Adding python version and pyenv virtualenv name to bash prompt?](https://stackoverflow.com/questions/49655329/adding-python-version-and-pyenv-virtualenv-name-to-bash-prompt)
-5. [Anaconda on MacOS Big Sur
-](https://aungzanbaw.medium.com/anaconda-on-macos-big-sur-8ae860a74c7a)
+5. [Anaconda on MacOS Big Sur](https://aungzanbaw.medium.com/anaconda-on-macos-big-sur-8ae860a74c7a)
+
+Some useful guides for `conda` (from the Documentation):
+
+1. [Managing environments](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#using-pip-in-an-environment)
 
 Some GitHub issues that can be used for `pyenv` in order to properly show the current virtual environment, even if it is installed alongside `conda`.
 
 * [Show current pyenv python version in bash prompt, and also color virtual envs differently
 ](https://gist.github.com/frnhr/dba7261bcb6970cf6121)
+* [Question regarding prompt changing #135
+](https://github.com/pyenv/pyenv-virtualenv/issues/135) -> this issue was related to `pyenv` behavior, where the current virtual environment would not show up, even if the `cwd` was a tree which had a `.python-version` file inside.
