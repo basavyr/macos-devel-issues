@@ -1,0 +1,561 @@
+{
+    "custom_field_types": [],
+    "dropdown_items": [],
+    "labels": [
+        {
+            "name": "App",
+            "color": "47cc8a",
+            "hashid": "QNDNaM"
+        },
+        {
+            "name": "Services",
+            "color": "d93651",
+            "hashid": "vwqw1j"
+        }
+    ],
+    "project_settings": [
+        {
+            "name": "enable_taskrelationships",
+            "value": "f",
+            "hashid": "KN8l7w"
+        },
+        {
+            "name": "enable_timeline",
+            "value": "f",
+            "hashid": "wZjm6w"
+        },
+        {
+            "name": "enable_timetracking",
+            "value": "f",
+            "hashid": "EZ8v7G"
+        }
+    ],
+    "sections": [
+        {
+            "name": "Free",
+            "indicator": 24,
+            "sequence": 1.0,
+            "color": "30bfbf",
+            "description": null,
+            "limit": null,
+            "hashid": "AB7zdO"
+        },
+        {
+            "name": "Paid",
+            "indicator": 26,
+            "sequence": 2.0,
+            "color": "00aaff",
+            "description": null,
+            "limit": null,
+            "hashid": "dPmVzO"
+        },
+        {
+            "name": "Subscription",
+            "indicator": 20,
+            "sequence": 3.0,
+            "color": "8f7ee6",
+            "description": null,
+            "limit": null,
+            "hashid": "ng5XNg"
+        }
+    ],
+    "tasks": [
+        {
+            "name": "Craft",
+            "sequence": 0.0,
+            "status": 1,
+            "notes": "https://www.craft.do/",
+            "section_id": "AB7zdO",
+            "due": null,
+            "completed_at": null,
+            "hashid": "jWqyay"
+        },
+        {
+            "name": "Apps by Milgra",
+            "sequence": 15000.0,
+            "status": 1,
+            "notes": "http://milgra.com/apps.html",
+            "section_id": "AB7zdO",
+            "due": null,
+            "completed_at": null,
+            "hashid": "qM4y17"
+        },
+        {
+            "name": "macOS Big Sur\nReplacement Icons",
+            "sequence": 30000.0,
+            "status": 1,
+            "notes": "https://macosicons.com/\n\n[GitHub repo](https://github.com/elrumo/macOS_Big_Sur_icons_replacements)",
+            "section_id": "AB7zdO",
+            "due": null,
+            "completed_at": null,
+            "hashid": "VvDOa3"
+        },
+        {
+            "name": "Decentralized Search engine",
+            "sequence": 45000.0,
+            "status": 1,
+            "notes": "https://yacy.net/",
+            "section_id": "AB7zdO",
+            "due": null,
+            "completed_at": null,
+            "hashid": "wDggkA"
+        },
+        {
+            "name": "SharePoint",
+            "sequence": 60000.0,
+            "status": 1,
+            "notes": "https://www.reddit.com/r/Office365/comments/kwpdwh/sharepoint_online_what_you_need_to_know_before/?utm_source=share&utm_medium=ios_app&utm_name=iossmf",
+            "section_id": "AB7zdO",
+            "due": null,
+            "completed_at": null,
+            "hashid": "2K33zo"
+        },
+        {
+            "name": "Element Instant Messaging",
+            "sequence": 75000.0,
+            "status": 1,
+            "notes": "https://element.io/",
+            "section_id": "AB7zdO",
+            "due": null,
+            "completed_at": null,
+            "hashid": "RBKN1W"
+        },
+        {
+            "name": "OpenIn App",
+            "sequence": 90000.0,
+            "status": 1,
+            "notes": "App: https://loshadki.app/openin/?ref=producthunt",
+            "section_id": "AB7zdO",
+            "due": null,
+            "completed_at": null,
+            "hashid": "qXKWmL"
+        },
+        {
+            "name": "Sidekick Browser for macOS",
+            "sequence": 105000.0,
+            "status": 1,
+            "notes": "App: https://www.meetsidekick.com/?ref=producthunt\n\nVideo tutorial: https://www.youtube.com/watch?v=OJNDYElTBDQ",
+            "section_id": "AB7zdO",
+            "due": null,
+            "completed_at": null,
+            "hashid": "RBPlWy"
+        },
+        {
+            "name": "Top Tools | Stackshare",
+            "sequence": 120000.0,
+            "status": 1,
+            "notes": "https://stackshare.io/posts/top-developer-tools-2020",
+            "section_id": "AB7zdO",
+            "due": null,
+            "completed_at": null,
+            "hashid": "9A9Zg4"
+        },
+        {
+            "name": "ludwg.guru | service",
+            "sequence": 135000.0,
+            "status": 1,
+            "notes": "https://ludwig.guru/\n\nLudwig is the first sentence search engine that helps you write better English by giving you contextualized examples taken from reliable sources.",
+            "section_id": "AB7zdO",
+            "due": null,
+            "completed_at": null,
+            "hashid": "YVXZ2w"
+        },
+        {
+            "name": "Criptext | Secure e-mail client",
+            "sequence": 150000.0,
+            "status": 1,
+            "notes": "https://criptext.com/en/",
+            "section_id": "AB7zdO",
+            "due": null,
+            "completed_at": null,
+            "hashid": "Kg0RMZ"
+        },
+        {
+            "name": "mailvelope | GPG Encryption in the browser",
+            "sequence": 165000.0,
+            "status": 1,
+            "notes": "https://www.mailvelope.com/en",
+            "section_id": "AB7zdO",
+            "due": null,
+            "completed_at": null,
+            "hashid": "pX7Koa"
+        },
+        {
+            "name": "Pocket | save notes 🗂",
+            "sequence": 180000.0,
+            "status": 1,
+            "notes": null,
+            "section_id": "AB7zdO",
+            "due": null,
+            "completed_at": null,
+            "hashid": "vOvYWp"
+        },
+        {
+            "name": "Instapaper | notes+articles 🗂",
+            "sequence": 195000.0,
+            "status": 1,
+            "notes": null,
+            "section_id": "AB7zdO",
+            "due": null,
+            "completed_at": null,
+            "hashid": "MpZ08L"
+        },
+        {
+            "name": "Little Snitch",
+            "sequence": 0.0,
+            "status": 1,
+            "notes": "https://obdev.at/products/littlesnitch/whatsnew.html",
+            "section_id": "dPmVzO",
+            "due": null,
+            "completed_at": null,
+            "hashid": "nA6Yjg"
+        },
+        {
+            "name": "AirBuddy",
+            "sequence": 15000.0,
+            "status": 1,
+            "notes": "https://v2.airbuddy.app/",
+            "section_id": "dPmVzO",
+            "due": null,
+            "completed_at": null,
+            "hashid": "gK0ydd"
+        },
+        {
+            "name": "WebCatalog App",
+            "sequence": 30000.0,
+            "status": 1,
+            "notes": "https://webcatalog.app/pricing",
+            "section_id": "dPmVzO",
+            "due": null,
+            "completed_at": null,
+            "hashid": "ZMAP7e"
+        },
+        {
+            "name": "iStatistica Pro",
+            "sequence": 45000.0,
+            "status": 1,
+            "notes": "App store: [link](https://apps.apple.com/us/app/istatistica/id1447778660?ls=1&mt=12)\n\nWebsite [link](https://www.imagetasks.com/istatistica/pro/)",
+            "section_id": "dPmVzO",
+            "due": null,
+            "completed_at": null,
+            "hashid": "8v7gQQ"
+        },
+        {
+            "name": "Sensei App for macOS",
+            "sequence": 60000.0,
+            "status": 1,
+            "notes": "Website: https://sensei.app/",
+            "section_id": "dPmVzO",
+            "due": null,
+            "completed_at": null,
+            "hashid": "5WgY6G"
+        },
+        {
+            "name": "Memex extension for Browsers | access",
+            "sequence": 75000.0,
+            "status": 1,
+            "notes": "source: https://getmemex.com/",
+            "section_id": "dPmVzO",
+            "due": null,
+            "completed_at": null,
+            "hashid": "lVdPm2"
+        },
+        {
+            "name": "Flow | macOS",
+            "sequence": 90000.0,
+            "status": 1,
+            "notes": "https://flowapp.info/pro",
+            "section_id": "dPmVzO",
+            "due": null,
+            "completed_at": null,
+            "hashid": "5Wnkka"
+        },
+        {
+            "name": "Buy Pixelmator for iOS",
+            "sequence": 105000.0,
+            "status": 1,
+            "notes": "https://apps.apple.com/ro/app/pixelmator/id924695435",
+            "section_id": "dPmVzO",
+            "due": null,
+            "completed_at": null,
+            "hashid": "5WnavL"
+        },
+        {
+            "name": "Walling | Pro Subscription",
+            "sequence": 120000.0,
+            "status": 1,
+            "notes": null,
+            "section_id": "dPmVzO",
+            "due": null,
+            "completed_at": null,
+            "hashid": "5WD9k1"
+        },
+        {
+            "name": "BetterZip 5",
+            "sequence": 135000.0,
+            "status": 1,
+            "notes": "https://macitbetter.com/",
+            "section_id": "dPmVzO",
+            "due": null,
+            "completed_at": null,
+            "hashid": "vLj3LM"
+        },
+        {
+            "name": "Threema | Messaging App",
+            "sequence": 150000.0,
+            "status": 1,
+            "notes": "https://threema.ch/en",
+            "section_id": "dPmVzO",
+            "due": null,
+            "completed_at": null,
+            "hashid": "alZEpv"
+        },
+        {
+            "name": "Abine, The Online Privacy Company",
+            "sequence": 165000.0,
+            "status": 1,
+            "notes": null,
+            "section_id": "dPmVzO",
+            "due": null,
+            "completed_at": null,
+            "hashid": "lVz7N3"
+        },
+        {
+            "name": "https://apps.apple.com/ro/app/tiimo-visual-daily-planner/id1480220328",
+            "sequence": 180000.0,
+            "status": 1,
+            "notes": "https://apps.apple.com/ro/app/tiimo-visual-daily-planner/id1480220328",
+            "section_id": "dPmVzO",
+            "due": null,
+            "completed_at": null,
+            "hashid": "E7GjO8"
+        },
+        {
+            "name": "https://apps.apple.com/ro/app/timpler-to-do-list-habits/id1432739728",
+            "sequence": 195000.0,
+            "status": 1,
+            "notes": "https://apps.apple.com/ro/app/timpler-to-do-list-habits/id1432739728",
+            "section_id": "dPmVzO",
+            "due": null,
+            "completed_at": null,
+            "hashid": "n5vgMw"
+        },
+        {
+            "name": "Inkdrop",
+            "sequence": 0.0,
+            "status": 1,
+            "notes": "https://www.inkdrop.app/",
+            "section_id": "ng5XNg",
+            "due": null,
+            "completed_at": null,
+            "hashid": "Oan5gN"
+        },
+        {
+            "name": "Everyday | habbit tracker",
+            "sequence": 15000.0,
+            "status": 1,
+            "notes": "➡️ Source: https://everyday.app/",
+            "section_id": "ng5XNg",
+            "due": null,
+            "completed_at": null,
+            "hashid": "oX42p7"
+        },
+        {
+            "name": "Zenkit | Suite",
+            "sequence": 30000.0,
+            "status": 1,
+            "notes": "https://zenkit.com/en/suite/",
+            "section_id": "ng5XNg",
+            "due": null,
+            "completed_at": null,
+            "hashid": "2wWOZG"
+        }
+    ],
+    "timeline_items": [],
+    "checklists": [
+        {
+            "name": "Checklist",
+            "sequence": 0.0,
+            "task_id": "5WnavL",
+            "hashid": "1aRvk2"
+        },
+        {
+            "name": "Checklist",
+            "sequence": 0.0,
+            "task_id": "2K33zo",
+            "hashid": "7YzyGB"
+        },
+        {
+            "name": "Checklist",
+            "sequence": 0.0,
+            "task_id": "RBKN1W",
+            "hashid": "mDDY71"
+        },
+        {
+            "name": "Checklist",
+            "sequence": 0.0,
+            "task_id": "E7GjO8",
+            "hashid": "e5jLz1"
+        },
+        {
+            "name": "Checklist",
+            "sequence": 0.0,
+            "task_id": "n5vgMw",
+            "hashid": "okZG37"
+        }
+    ],
+    "checklist_items": [],
+    "custom_fields": [],
+    "task_labels": [
+        {
+            "label_id": "QNDNaM",
+            "task_id": "nA6Yjg",
+            "hashid": "eKZgG1"
+        },
+        {
+            "label_id": "QNDNaM",
+            "task_id": "jWqyay",
+            "hashid": "0NwZOd"
+        },
+        {
+            "label_id": "QNDNaM",
+            "task_id": "gK0ydd",
+            "hashid": "gMG1ZO"
+        },
+        {
+            "label_id": "QNDNaM",
+            "task_id": "qM4y17",
+            "hashid": "GzZlWQ"
+        },
+        {
+            "label_id": "QNDNaM",
+            "task_id": "8v7gQQ",
+            "hashid": "NWad3B"
+        },
+        {
+            "label_id": "QNDNaM",
+            "task_id": "5WgY6G",
+            "hashid": "XE7dj4"
+        },
+        {
+            "label_id": "QNDNaM",
+            "task_id": "5Wnkka",
+            "hashid": "RloZYV"
+        },
+        {
+            "label_id": "QNDNaM",
+            "task_id": "5WnavL",
+            "hashid": "qWLwVL"
+        },
+        {
+            "label_id": "QNDNaM",
+            "task_id": "Oan5gN",
+            "hashid": "qWzX3E"
+        },
+        {
+            "label_id": "QNDNaM",
+            "task_id": "alZEpv",
+            "hashid": "L5LAaG"
+        },
+        {
+            "label_id": "QNDNaM",
+            "task_id": "RBKN1W",
+            "hashid": "81YDoq"
+        },
+        {
+            "label_id": "QNDNaM",
+            "task_id": "RBPlWy",
+            "hashid": "81L7Bn"
+        },
+        {
+            "label_id": "QNDNaM",
+            "task_id": "9A9Zg4",
+            "hashid": "eoP6Ne"
+        },
+        {
+            "label_id": "QNDNaM",
+            "task_id": "Kg0RMZ",
+            "hashid": "dad3Qe"
+        },
+        {
+            "label_id": "vwqw1j",
+            "task_id": "VvDOa3",
+            "hashid": "OOvP58"
+        },
+        {
+            "label_id": "vwqw1j",
+            "task_id": "wDggkA",
+            "hashid": "14V9MZ"
+        },
+        {
+            "label_id": "vwqw1j",
+            "task_id": "5WgY6G",
+            "hashid": "z5ODLk"
+        },
+        {
+            "label_id": "vwqw1j",
+            "task_id": "lVdPm2",
+            "hashid": "qWRMRE"
+        },
+        {
+            "label_id": "vwqw1j",
+            "task_id": "5WD9k1",
+            "hashid": "nazq2a"
+        },
+        {
+            "label_id": "vwqw1j",
+            "task_id": "Oan5gN",
+            "hashid": "Z1PV4e"
+        },
+        {
+            "label_id": "vwqw1j",
+            "task_id": "2K33zo",
+            "hashid": "NWPYjp"
+        },
+        {
+            "label_id": "vwqw1j",
+            "task_id": "alZEpv",
+            "hashid": "7OY29v"
+        },
+        {
+            "label_id": "vwqw1j",
+            "task_id": "oX42p7",
+            "hashid": "dapo8K"
+        },
+        {
+            "label_id": "vwqw1j",
+            "task_id": "YVXZ2w",
+            "hashid": "NWAN1e"
+        },
+        {
+            "label_id": "vwqw1j",
+            "task_id": "Kg0RMZ",
+            "hashid": "naGRPn"
+        },
+        {
+            "label_id": "vwqw1j",
+            "task_id": "pX7Koa",
+            "hashid": "gOKRgZ"
+        },
+        {
+            "label_id": "vwqw1j",
+            "task_id": "vOvYWp",
+            "hashid": "mpY54w"
+        },
+        {
+            "label_id": "vwqw1j",
+            "task_id": "MpZ08L",
+            "hashid": "WXYWkL"
+        },
+        {
+            "label_id": "vwqw1j",
+            "task_id": "2wWOZG",
+            "hashid": "RlYzke"
+        }
+    ],
+    "project": {
+        "name": "Services & Apps",
+        "notes": "A board for storing useful applications and services for usage",
+        "hashid": "228LqY"
+    }
+}
