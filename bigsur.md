@@ -1,5 +1,9 @@
 # Resources for macOS 11 BigSur
 
+## Homebrew
+
+[set-up path for homebrew](https://apple.stackexchange.com/questions/148901/why-does-my-brew-installation-not-work)
+
 The newest macOS November 2002 update introduces a new version - BigSur, which is a new major release of macOS.
 
 These are some useful packages for usage after a clean install of the OS.

@@ -15,3 +15,10 @@ eval "$(pyenv virtualenv-init -)"
 ```
 
 These commands help for the `pyenv` package to work (installed via Homebrew) when called within a shell instance.
+
+## Resources and documentation
+
+`pyenv` - `pyenv-virtualenv` - `pipenv`
+
+1. https://docs.python-guide.org/dev/virtualenvs/#virtualenvironments-ref
+2. https://docs.python-guide.org/dev/virtualenvs/#virtualenvironments-ref

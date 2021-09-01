@@ -1,5 +1,9 @@
 # Development issues with Apple Silicon
 
+## Setup `$PATH` 
+
+[setup the path of a package](https://stackoverflow.com/questions/46391721/pipenv-command-not-found)
+
 ## Installing `Python` via `pyenv` on Apple Silicon **M1**
 
 - Using the Python interpreter with Apple Silicon requires the installation of `Homebrew` and then installing `pyenv` using 
@@ -34,3 +38,5 @@ Other useful guides for `pyenv`
 * [Install Python on macOS 11 M1 (Apple Silicon) using pyenv | by Tony Lai | Medium](https://laict.medium.com/install-python-on-macos-11-m1-apple-silicon-using-pyenv-12e0729427a9)
 * [Install Homebrew on macOS 11 (Apple Silicon) | by Tony Lai | Medium](https://laict.medium.com/install-homebrew-on-macos-11-apple-silicon-630f37a74490)
 * [formula-patches/python at master · Homebrew/formula-patches](https://github.com/Homebrew/formula-patches/tree/master/python)
+
+**Observation** - Versions of Python higher than `3.9.0` should work on the M1 macs via `pyenv` without issues and extra arguments.
