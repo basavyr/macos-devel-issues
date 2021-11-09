@@ -1,5 +1,5 @@
 brew packages | M1
-Tue Nov  9 14:17:03 EET 2021
+Tue Nov  9 14:24:51 EET 2021
 autoconf
 ca-certificates
 gcc
@@ -22,3 +22,4 @@ tree
 xz
 zlib
 zstd
+basictex
