@@ -1,0 +1,24 @@
+brew packages | M1
+Tue Nov  9 14:17:03 EET 2021
+autoconf
+ca-certificates
+gcc
+gmp
+htop
+isl
+libmpc
+m4
+mpfr
+ncurses
+openblas
+openssl@1.1
+openssl@3
+pandoc
+pkg-config
+pyenv
+readline
+sqlite
+tree
+xz
+zlib
+zstd
