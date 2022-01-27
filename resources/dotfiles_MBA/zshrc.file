@@ -1,0 +1,16 @@
+
+#### FIG ENV VARIABLES ####
+# Please make sure this block is at the start of this file.
+[ -s ~/.fig/shell/pre.sh ] && source ~/.fig/shell/pre.sh
+#### END FIG ENV VARIABLES ####
+alias cloud="cd /Users/robertpoenaru/Library/Mobile\ Documents/com~apple~CloudDocs"
+alias update="brew update && brew upgrade && brew update --cask"
+alias la="ls -lah"
+alias ls="ls -G"
+eval "$(pyenv init -)"
+eval "$(pyenv virtualenv-init -)"
+
+#### FIG ENV VARIABLES ####
+# Please make sure this block is at the end of this file.
+[ -s ~/.fig/fig.sh ] && source ~/.fig/fig.sh
+#### END FIG ENV VARIABLES ####
