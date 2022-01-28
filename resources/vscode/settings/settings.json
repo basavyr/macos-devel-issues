@@ -1,0 +1,90 @@
+{
+    "latex-workshop.latex.tools": [
+        {
+            "name": "latexmk",
+            "command": "latexmk",
+            "args": [
+                "-synctex=1",
+                "-interaction=nonstopmode",
+                "-file-line-error",
+                "-pdf",
+                "-outdir=./",
+                "%DOCFILE%"
+            ],
+            "env": {}
+        }
+    ],
+    "editor.fontSize": 14,
+    "explorer.confirmDelete": false,
+    "terminal.integrated.fontSize": 13,
+    "workbench.colorTheme": "One Dark Pro",
+    "workbench.iconTheme": "material-icon-theme",
+    "python.formatting.autopep8Args": [
+        "--ignore=E731"
+    ],
+    "cSpell.userWords": [
+        "ariana",
+        "Bargmann",
+        "Chirality",
+        "Clebsch",
+        "dequantization",
+        "DFCTI",
+        "Filebeat",
+        "Gordan",
+        "Hamiltonians",
+        "hexadecupole",
+        "Irrotational",
+        "isnan",
+        "Kibana",
+        "Logstash",
+        "matplotlib",
+        "Mottelson",
+        "Multipole",
+        "nuclides",
+        "numpy",
+        "pipenv",
+        "Poenaru",
+        "psutil",
+        "quasiparticle",
+        "scipy",
+        "seaborn",
+        "triaxiality",
+        "variationally",
+        "yrast"
+    ],
+    "explorer.confirmDragAndDrop": false,
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter.notebook.ipynb",
+        "*.pdf": "latex-workshop-pdf-hook"
+    },
+    "editor.tabCompletion": "on",
+    "workbench.preferredDarkColorTheme": "One Dark Pro",
+    "workbench.preferredLightColorTheme": "Atom One Light",
+    "workbench.preferredHighContrastColorTheme": "GitHub Dark Default",
+    "workbench.editor.wrapTabs": true,
+    "editor.fontLigatures": true,
+    "editor.fontFamily": "Cascadia Code PL",
+    "terminal.integrated.fontFamily": "Cascadia Mono PL",
+    "terminal.integrated.fontWeightBold": 100,
+    "terminal.external.osxExec": "",
+    "terminal.external.linuxExec": "",
+    "python.languageServer": "Jedi",
+    "window.autoDetectColorScheme": true,
+    "settingsSync.ignoredSettings": [
+        "editor.fontFamily",
+        "terminal.integrated.fontFamily"
+    ],
+    "[markdown]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "git.autofetch": true,
+    "python.defaultInterpreterPath": "/Users/robertpoenaru/.pyenv/versions/3.8.6/envs/systems/bin/python",
+    "editor.inlineSuggest.enabled": true,
+    "github.copilot.enable": {
+        "*": true,
+        "yaml": false,
+        "plaintext": false,
+        "markdown": true
+    },
+    "workbench.productIconTheme": "fluent-icons"
+}
