@@ -1,7 +1,0 @@
-set number
-set mouse=a
-syntax on
-set spell
-hi clear SpellBad
-hi SpellBad cterm=underline,bold
-hi clear SpellCap
