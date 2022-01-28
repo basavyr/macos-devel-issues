@@ -1,0 +1,96 @@
+cwd
+/Users/robertpoenaru
+txt
+/Users/robertpoenaru/Library/Application Support/iTerm2/iterm2env-72/versions/3.8.6/bin/python3.8
+txt
+/private/var/db/oah/279281327407104_279281327407104/a7c21c127fb3a3d5110814b940575681d904fa32ad6907a12c893a799ecbad52/python3.8.aot
+txt
+/usr/libexec/rosetta/runtime
+txt
+/Library/Apple/usr/libexec/oah/libRosettaRuntime
+txt
+/Users/robertpoenaru/Library/Application Support/iTerm2/iterm2env-72/versions/3.8.6/lib/python3.8/lib-dynload/_heapq.cpython-38-darwin.so
+txt
+/private/var/db/oah/279281327407104_279281327407104/60639b69a0b9dd6ab2783a1e367502ad64c6e4f103ecd25fc7176e6298209174/_heapq.cpython-38-darwin.so.aot
+txt
+/Users/robertpoenaru/Library/Application Support/iTerm2/iterm2env-72/versions/3.8.6/lib/python3.8/lib-dynload/_opcode.cpython-38-darwin.so
+txt
+/private/var/db/oah/279281327407104_279281327407104/bd25082b23cd90827810cfd8f694a974f0cf2dc05b627d858d715d5746c5b2ca/_opcode.cpython-38-darwin.so.aot
+txt
+/Users/robertpoenaru/Library/Application Support/iTerm2/iterm2env-72/versions/3.8.6/lib/python3.8/lib-dynload/select.cpython-38-darwin.so
+txt
+/private/var/db/oah/279281327407104_279281327407104/49e1ca8fe1e5107cc04944d6761c233d015c8b7e48acaa8f902c5e80839f5e95/select.cpython-38-darwin.so.aot
+txt
+/Users/robertpoenaru/Library/Application Support/iTerm2/iterm2env-72/versions/3.8.6/lib/python3.8/lib-dynload/_socket.cpython-38-darwin.so
+txt
+/private/var/db/oah/279281327407104_279281327407104/a49e11210f013a624e32ed7a3595ba0c118ac32cb1b055623672b610836ef292/_socket.cpython-38-darwin.so.aot
+txt
+/Users/robertpoenaru/Library/Application Support/iTerm2/iterm2env-72/versions/3.8.6/lib/python3.8/lib-dynload/math.cpython-38-darwin.so
+txt
+/private/var/db/oah/279281327407104_279281327407104/915d41e236e396484a488f4bb9275f0eac600da55eb2987229ddbcdc15474b93/math.cpython-38-darwin.so.aot
+txt
+/Users/robertpoenaru/Library/Application Support/iTerm2/iterm2env-72/versions/3.8.6/lib/python3.8/lib-dynload/_posixsubprocess.cpython-38-darwin.so
+txt
+/private/var/db/oah/279281327407104_279281327407104/1666ac19d0d4ebd08cabc5b8d4f9752d23d6755db7be4ddaf8c74d6932bb43d6/_posixsubprocess.cpython-38-darwin.so.aot
+txt
+/Users/robertpoenaru/Library/Application Support/iTerm2/iterm2env-72/versions/3.8.6/lib/python3.8/lib-dynload/_struct.cpython-38-darwin.so
+txt
+/private/var/db/oah/279281327407104_279281327407104/65d39c006cc2761ecf4b2e251278b4f5a005a2996d513f7a3a19a7691d31aa33/_struct.cpython-38-darwin.so.aot
+txt
+/Users/robertpoenaru/Library/Application Support/iTerm2/iterm2env-72/versions/3.8.6/lib/python3.8/lib-dynload/binascii.cpython-38-darwin.so
+txt
+/private/var/db/oah/279281327407104_279281327407104/17906e387e217ab606223ac777f7521d41dbb83f6fb8739776be51702c936fd8/binascii.cpython-38-darwin.so.aot
+txt
+/Users/robertpoenaru/Library/Application Support/iTerm2/iterm2env-72/versions/3.8.6/lib/python3.8/lib-dynload/_contextvars.cpython-38-darwin.so
+txt
+/private/var/db/oah/279281327407104_279281327407104/4456d5ca9bad94bedf5354db58a3178376385eaf80ceb64b95063a9e5b6d3201/_contextvars.cpython-38-darwin.so.aot
+txt
+/Users/robertpoenaru/Library/Application Support/iTerm2/iterm2env-72/versions/3.8.6/lib/python3.8/lib-dynload/_asyncio.cpython-38-darwin.so
+txt
+/private/var/db/oah/279281327407104_279281327407104/d256a97f31a949a7c29fdd78b08dd7026a377c16da9cb8567a1f6d1e78c146ec/_asyncio.cpython-38-darwin.so.aot
+txt
+/Users/robertpoenaru/Library/Application Support/iTerm2/iterm2env-72/versions/3.8.6/lib/python3.8/lib-dynload/zlib.cpython-38-darwin.so
+txt
+/private/var/db/oah/279281327407104_279281327407104/d677e21578debd2e8bc69abb06190a14bda6d1466b1c8bd305f8deab86e40673/zlib.cpython-38-darwin.so.aot
+txt
+/Users/robertpoenaru/Library/Application Support/iTerm2/iterm2env-72/versions/3.8.6/lib/python3.8/lib-dynload/_bz2.cpython-38-darwin.so
+txt
+/private/var/db/oah/279281327407104_279281327407104/8ecb6e80beca37bc4cdd8870582252d9e33887906ad3f6d0e48dc3d40c070c48/_bz2.cpython-38-darwin.so.aot
+txt
+/Users/robertpoenaru/Library/Application Support/iTerm2/iterm2env-72/versions/3.8.6/lib/python3.8/lib-dynload/grp.cpython-38-darwin.so
+txt
+/private/var/db/oah/279281327407104_279281327407104/6fb33bcb76b01f6dd48182f4b39b9bf5ecc1a40957747a7ccdcc409056f28514/grp.cpython-38-darwin.so.aot
+txt
+/Users/robertpoenaru/Library/Application Support/iTerm2/iterm2env-72/versions/3.8.6/lib/python3.8/lib-dynload/_queue.cpython-38-darwin.so
+txt
+/private/var/db/oah/279281327407104_279281327407104/f73a01fd4055ed347d8f689e322829d3a3d59c0ddfc59766c260740c21597c96/_queue.cpython-38-darwin.so.aot
+txt
+/Users/robertpoenaru/Library/Application Support/iTerm2/iterm2env-72/versions/3.8.6/lib/python3.8/lib-dynload/fcntl.cpython-38-darwin.so
+txt
+/private/var/db/oah/279281327407104_279281327407104/12bbbd5b7fdadc0b752b2224c66d21742237995312cbe3d823b28a64c1662191/fcntl.cpython-38-darwin.so.aot
+txt
+/Users/robertpoenaru/Library/Application Support/iTerm2/iterm2env-72/versions/3.8.6/lib/python3.8/lib-dynload/_ctypes.cpython-38-darwin.so
+txt
+/private/var/db/oah/279281327407104_279281327407104/a520df4d9949bd85789451c82c7a8a46662ae6a0a67f2668391292b0a0ea1985/_ctypes.cpython-38-darwin.so.aot
+txt
+/Users/robertpoenaru/Library/Application Support/iTerm2/iterm2env-72/versions/3.8.6/lib/python3.8/lib-dynload/readline.cpython-38-darwin.so
+txt
+/private/var/db/oah/279281327407104_279281327407104/c295322e2e8041098215e52e0e62dc55f88f9641c1ce5de7b73eb2c347cf059b/readline.cpython-38-darwin.so.aot
+txt
+/Users/robertpoenaru/Library/Application Support/iTerm2/iterm2env-72/versions/3.8.6/lib/python3.8/lib-dynload/_ssl.cpython-38-darwin.so
+txt
+/private/var/db/oah/279281327407104_279281327407104/b92ba5c98d577e6340939995c2395bab08407e276e8a44152d81ca972f6cd71b/_ssl.cpython-38-darwin.so.aot
+txt
+/usr/lib/dyld
+txt
+/private/var/db/oah/279281327407104_279281327407104/32c0d00e18c52d8701c01f246444f375b4b9aa1edb192b7e02774c1afa8494f9/dyld.aot
+0
+/dev/ttys003
+1
+/dev/ttys003
+2
+/dev/ttys003
+4
+->0xf016e890c12d6da1
+5
+->0x9d1bc3f56b84563f

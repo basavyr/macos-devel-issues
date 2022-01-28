@@ -1,0 +1,6 @@
+27.1, 13:07:55,681: /bin/zsh -c /Applications/iTerm.app/Contents/Resources/it2_api_wrapper.sh /Users/robertpoenaru/.config/iterm2/AppSupport/iterm2env/versions/3.8.6/bin/python3 /Users/robertpoenaru/.config/iterm2/AppSupport/Scripts/AutoLaunch/pypy.py
+27.1, 13:07:55,911: + unset PYTHONPATH
+27.1, 13:07:55,911: + export PYTHONUNBUFFERED=1
+27.1, 13:07:55,911: + PYTHONUNBUFFERED=1
+27.1, 13:07:55,911: + /Users/robertpoenaru/.config/iterm2/AppSupport/iterm2env/versions/3.8.6/bin/python3 /Users/robertpoenaru/.config/iterm2/AppSupport/Scripts/AutoLaunch/pypy.py
+27.1, 13:07:56,697: Connection accepted: Script launched by user action
