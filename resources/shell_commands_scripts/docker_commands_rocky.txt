@@ -1,0 +1,2 @@
+docker exec -it rocky-test bash
+docker exec -it rocky-test-2 bash
