@@ -1,0 +1,13 @@
+# original setting for the kernel menu
+# this is located in the MenuSetup.tr
+# this option avoids the prompt dialog
+MenuItem["First Quit Kernel", "MenuListQuitEvaluators", MenuAnchor->True]
+
+
+# original setting for quitting the local kernel
+# located in SystemMenuSetup.tr
+# this option prompts the user with a dialog box
+Item[KeyEvent["k", Modifiers -> {Command, Shift}],
+		FrontEndExecute[{
+            FrontEndToken[SelectedNotebook[ ], "EvaluatorQuit", Automatic]
+		}]],
